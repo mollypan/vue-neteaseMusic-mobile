@@ -1,28 +1,27 @@
+<!--
+ * @Author: Molly Pan
+ * @Date: 2022-06-27 22:24:52
+ * @LastEditTime: 2022-06-28 13:54:22
+ * @FilePath: /vue-netease-music/src/App.vue
+ * 只要卷不死，就往死里卷૮ ฅ'ㅅ'ฅ ა
+-->
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+
+  export default {
+    components: {
+      
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
